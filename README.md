@@ -1,7 +1,9 @@
 # LinkedIn-Bulk-Connections-Remover
-1. Copy and past this in your browser console and press enter. 
-2. May have to run more than once, depending on internet speed. If crashes to often, increase the sleep times. 
-3. To stop program or if program hangs, refresh page.
+1. Go to your LinkedIn Connections page.
+2. Open Developer Menu (F12 opens Developer Menu)
+3. Copy and past this in your browser console and press enter. 
+4. May have to run more than once, depending on internet speed. If crashes to often, increase the sleep times. 
+5. To stop program or if program hangs, refresh page.
 
 ```js
 (async function () {
