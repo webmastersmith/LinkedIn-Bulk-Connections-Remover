@@ -3,6 +3,7 @@
 2. May have to run more than once, depending on internet speed. If crashes to often, increase the sleep times. 
 3. If program hangs, refresh page to stop.
 
+```js
 (async function () {
   // get total connections
   let connections = +document.querySelector('.mn-connections__header > h1').innerText.split(' ')[0];
@@ -32,3 +33,4 @@
     await getContactsAndDelete();
   }
 })();
+```
