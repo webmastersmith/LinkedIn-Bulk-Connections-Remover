@@ -1,14 +1,14 @@
 # LinkedIn-Bulk-Connections-Remover
 1. Copy and past this in your browser console and press enter. 
 2. May have to run more than once, depending on internet speed. If crashes to often, increase the sleep times. 
-3. If program hangs, refresh page to stop.
+3. To stop program or if program hangs, refresh page.
 
 ```js
 (async function () {
   // get total connections
   let connections = +document.querySelector('.mn-connections__header > h1').innerText.split(' ')[0];
   async function getContactsAndDelete() {
-    // get all meatball menu button nodes
+    // get all connection meatball menu button nodes
     const meatballMenus =
       document.querySelectorAll('ul > li.mn-connection-card button.artdeco-dropdown__trigger') || [];
     // sleep function to allow page load
